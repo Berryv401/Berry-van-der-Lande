@@ -1,0 +1,204 @@
+
+nav{
+	max-width: 100%;
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	min-height: 65px;
+	margin-top: 12px;
+	padding-top: 10px;
+	padding-right: 8px;
+	text-align: right;
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+
+
+
+/*ul{
+	display: none;
+	uncomment this and make a hamburger menu on right
+}*/
+.topImage{
+	width: 100%;
+	min-height: 350px;
+}
+a{
+	padding: 10px;
+	margin-top: 10px;
+	line-height: 65px;
+}
+label{
+	margin-right: 30px;
+	margin-left: 30px;
+	font-size: 28px;
+	line-height: 65px;
+	display: block;
+	cursor: pointer;
+}
+.burger{
+	text-align: center;
+	width: 100%;
+	display: none;
+}
+.burger a{
+	display: block;
+	border-bottom: 1px solid white;
+	margin: 0;
+}
+.burger a:first-of-type{
+	border-top: 1px solid white;
+}
+#toggle:checked + .burger{
+	display: block;
+}
+#toggle{
+	display: none;
+}
+.titles{
+	background: grey;
+	width: 100%;
+	padding-right: -15px;
+}
+.name{
+	font-size: 3em;
+}
+.contact{
+	font-weight: bold;
+}
+.description{             /*description and border*/
+	margin: 10px;
+	padding: 4px;
+	border-top: black solid 2px;
+	width: 100%;
+	font-weight: bold;
+}
+.title{
+	text-align: left;
+	justify-content: center;
+	min-height: 250px;
+}
+.fullstack{			/*H2 Full Stack Web Developer*/
+	/*color: red;*/   
+
+}
+.line-break{
+	width: 100%;
+}
+h4{
+	padding-top: 16px;
+}
+main{
+	background-color: grey;
+	margin: 10px;
+	padding-left: -14px;
+ }
+footer{
+	text-align: center;
+	background: black;
+	color: white;
+	padding: 5px;
+	font-weight: bold;
+	min-height: 70px;
+}
+.projectContainer{
+	padding: 0 6px;
+	margin: 0 6px;
+}
+a.project-titles{
+	font-weight: bold;
+	font-size: 26px;
+}
+.head{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 8px;
+	justify-content: left;
+}
+aside{
+	align-items: right;
+}
+article:last-of-type{
+	padding-bottom: -20px;
+}
+ul{
+	border-radius: 28px;
+}
+@media (min-width: 768px){
+label{
+	display: none;  /*display none was getting overwritten and i couldnt figure out why so i use font size 0*/
+	font-size: 0;
+}
+.burger{
+	display: flex;
+}
+.burger a{
+	border-bottom: none;
+	font-size: 36px;
+	padding-bottom: 12px;
+}
+.burger a:first-of-type{
+	border-top: none;
+}
+#toggle{
+	display: none;
+}
+#toggle:checked + .burger{
+	display: flex;
+}
+.projectContainer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+}
+.topImage{
+	min-height: 450px;
+}
+.links{
+	width: 350px;
+	height: 300px;
+	margin: 0 -20px 0 -20px;
+	padding: 20px;
+
+}
+/*ul{
+	margin: -20px;
+	padding: -20px;
+}*/
+a{
+	font-weight: bold;
+	font-size: 26px;
+	padding: 0 20px;
+}
+
+@media (min-width: 992px){
+
+ a{
+	font-size: 2em;
+	text-align: left;
+	padding-bottom: 20px; 
+
+}
+.links{
+	width: 350px;
+	height: 300px;
+	margin: 0 -20px 0 -20px;
+	padding: 20px;
+
+}
+nav{
+	width: 100%;
+	text-align: left;
+}
+.footerh4{
+	text-align: left;
+	
+}
+.footerp{
+	text-align: left;
+	margin-top: 16px;
+	
+}
+}
+
