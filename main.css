@@ -34,6 +34,10 @@ a{
 	margin-top: 10px;
 	line-height: 65px;
 }
+/*.burger:before{
+	content: attr(data-text);
+	display: inline-block;
+}*/
 label{
 	margin-right: 30px;
 	margin-left: 30px;
@@ -106,7 +110,7 @@ main{
  }
 .icons{
 	background: rgb(211,211,211);
-	min-height: 70px;
+	min-height: 80px;
 	
 }
 .end{
@@ -135,8 +139,24 @@ a.project-titles{
 article:last-of-type{
 	padding-bottom: -20px;
 }
-ul{
-	border-radius: 28px;
+.icons{
+	font-size: 30px;
+	text-align: center;
+	padding: 10px;
+	display: inline-block;
+	width: 100%;
+
+}
+i{
+	margin: 5px;
+
+}
+i:hover{
+	color: white;
+	background: black;
+	transition: .5s;
+	padding: 6px;
+	border-radius: 50%;
 }
 @media (min-width: 768px){
 label{

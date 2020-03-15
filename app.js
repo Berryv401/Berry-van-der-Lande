@@ -21,7 +21,7 @@ function app(projects) {   console.log('app - projects', projects) 
 	for(let i =0; i < projects.length; i++){         
 		let $article = $(`         
 			<article>            
-				<a class="project-titles" href="#">${projects[i].title}</a>         
+				<a class="project-titles">${projects[i].title}</a>         
 					<div class="project_image">         
 						<a href=${projects[i].url}>              
 							<img class='links' width= "100%" height="100%" src=${projects[i].image}></a>         
