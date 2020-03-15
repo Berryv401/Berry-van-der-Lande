@@ -152,6 +152,10 @@ area:hover{
 	padding: 6px;
 	border-radius: 50%;
 }
+h3{
+	font-weight: bold;
+	font-style: italic;
+}
 @media (min-width: 768px){
 label{
 	display: none;  /*display none was getting overwritten and i couldnt figure out why so i use font size 0*/
