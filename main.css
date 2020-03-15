@@ -17,7 +17,8 @@ nav{
 	min-height: 350px;
 }
 .secondImage{
-	width: 
+	width: 100%;
+	display: none;
 }
 article{
 	display: flex;
@@ -33,11 +34,8 @@ a{
 	padding: 10px;
 	margin-top: 10px;
 	line-height: 65px;
+	text-decoration: none;
 }
-/*.burger:before{
-	content: attr(data-text);
-	display: inline-block;
-}*/
 label{
 	margin-right: 30px;
 	margin-left: 30px;
@@ -93,10 +91,6 @@ label{
 	justify-content: center;
 	min-height: 250px;
 }
-.fullstack{			/*H2 Full Stack Web Developer*/
-	/*color: red;*/   
-
-}
 .line-break{
 	width: 100%;
 }
@@ -147,11 +141,11 @@ article:last-of-type{
 	width: 100%;
 
 }
-i{
+area{
 	margin: 5px;
 
 }
-i:hover{
+area:hover{
 	color: white;
 	background: black;
 	transition: .5s;
@@ -214,9 +208,15 @@ a{
 	font-size: 26px;
 	padding: 0 20px;
 }
-
 @media (min-width: 992px){
-
+.topImage{
+	display: none;
+}
+.secondImage{
+	display: inline-block;
+	width: 100%
+	min-height: 300px;
+}
  a{
 	font-size: 2em;
 	text-align: left;
