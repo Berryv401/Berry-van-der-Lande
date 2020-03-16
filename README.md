@@ -32,18 +32,6 @@ Your work must:
 - An in-class demo of the site that shows off the interactions you worked on.
 - A mobile nav that expands and collapses when a user clicks on the hamburger icon.
 
-## Code Snippet
-
-<label for='toggle'>&#9776;</label>
-<input type='checkbox' id='toggle'>
--I chose this because i was surprised how simple it was to make a clickable hamburger menu.
-
-## References 
-
-Hamburger Menu - https://www.youtube.com/watch?v=xMTs8tAapnQ&t=1s
-
-Icons - https://www.youtube.com/watch?v=woVuUbDOeMk&t=205s
-
 
 ## Portfolio Samples
 
