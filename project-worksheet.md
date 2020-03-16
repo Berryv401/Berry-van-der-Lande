@@ -45,16 +45,20 @@ Once complete tally up the time and determine how long the project will take to 
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
-#### MVP (examples)
+#### MVP 
 
+- Familiarize and work with framework
 - Pull data using google json api
 - Render data on page 
-- Allow user to choose favorites 
-- Save their choices in firebase
+- Basic Site layout html/css
+- Media Query
+- debugging
+- Sit functionality
 
 #### PostMVP 
 
-- Anything else that is not MVP
+- project updating
+- final touches
 
 ## Functional Components
 
@@ -69,17 +73,21 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Total | H | 6hrs| 5hrs | 5hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+Hamburger Menu - https://www.youtube.com/watch?v=xMTs8tAapnQ&t=1s
+
+Icons - https://www.youtube.com/watch?v=woVuUbDOeMk&t=205s
+
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+<label for='toggle'>&#9776;</label>
+<input type='checkbox' id='toggle'>
+-I chose this because i was surprised how simple it was to make a clickable hamburger menu.
 ```
+
 
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
